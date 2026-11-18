@@ -15,7 +15,7 @@
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## `01 // ABOUT_ME`
+## `~/about`
 
 ```bash
 $ whoami
@@ -25,7 +25,7 @@ I'm **Mahmoud Ayman**, a Full-Stack Developer and junior penetration tester stud
 
 I work across the whole stack: interfaces, backend systems, and the security mechanisms that keep applications trustworthy. I build the thing, then I try to break it, then I fix what broke.
 
-My work sits at the intersection of:
+My work covers:
 
 - **Software Engineering:** production-ready applications, real-time systems and well-structured backends.
 - **Application Security:** OWASP Top 10, authentication security, vulnerability assessment and web penetration testing.
@@ -60,7 +60,7 @@ $ cat /etc/motivation
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## `02 // ENGINEERING_STACK`
+## `~/stack`
 
 <details open>
 <summary><b>Languages & Core Foundations</b></summary>
@@ -125,7 +125,7 @@ Web Application Security · OWASP Top 10 · Secure Authentication · Vulnerabili
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## `03 // CERTIFICATIONS_&_TRAINING`
+## `~/certs`
 
 [![CCNA](https://img.shields.io/badge/CCNA-Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)](https://www.linkedin.com/in/mahmoud-ayman-ez)
 [![HCIA-Security](https://img.shields.io/badge/HCIA--Security_v4-Huawei-CF0A2C?style=for-the-badge&logo=huawei&logoColor=white)](https://www.linkedin.com/in/mahmoud-ayman-ez)
@@ -137,9 +137,9 @@ Hands-on practice through TryHackMe rooms and a large number of PortSwigger Web 
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## `04 // SELECTED_PROJECTS`
+## `~/projects`
 
-I prefer building projects that solve real problems and involve real engineering decisions.
+I build projects that solve a concrete problem and force real engineering decisions.
 
 ### DocuMind
 **RAG-powered document intelligence platform**
@@ -164,6 +164,15 @@ A security platform that helps developers find vulnerabilities and leaked secret
 - AI-assisted security analysis.
 - Isolated execution environments.
 
+### MCP Checkpoint
+**Security checkpoint for AI agents that use tools through MCP** (graduation project)
+
+A gateway sits between the AI application and the tool server. A policy decides allow, deny or hold for every tool call, and every call and decision is saved as an event.
+
+- Dashboard for events and incidents, plus a detector that flags risky patterns.
+- Attack lab that replays written scenarios against fake tools and fake secrets.
+- Python, Docker and a one-command demo (`make setup && make up && make demo`) that CI runs on a clean machine.
+
 ### Netscope
 **Smart-home network analyzer**
 
@@ -187,13 +196,17 @@ An AI-powered concept that helps Egyptian SMEs and real-estate developers find f
 |---|---|---|
 | **IEEE Aswan platform** | Branch website with dashboard, events, archive, ticketing and certificate emails ([ieeeasw.dev](https://ieeeasw.dev)) | Full-stack, deployed on Heroku |
 | **Codestorm 3.0 judge** | 1v1 competitive-programming contest hosted on the branch site, judged only through the Codeforces API | Full-stack, Codeforces API |
+| **[ODM](https://github.com/zAyman01/odm)** | Open Download Manager: segmented HTTP acceleration, BitTorrent, HLS/DASH video and yt-dlp, with resume on SQLite (v0.1.0) | Rust |
+| **[Talla](https://github.com/zAyman01/talla)** | Storefront for clothing stores in MENA that shows garments on a 3D mannequin so buyers build whole outfits | Next.js, TypeScript |
+| **[Gridly](https://github.com/zAyman01/Gridly)** | Project management with Board, Table, Calendar and Timeline views, task dependencies and Gemini-assisted steps | React, Express |
+| **[Soundline](https://github.com/zAyman01/soundline)** | Marketing and lead-gen site for a fictional B2B product, built as a design-system and scroll-storytelling exercise | Next.js 15, React 19, Tailwind v4 |
 | **Task board** | Trello-style collaborative board with real-time updates | React, REST + WebSocket |
 | **Travel Express** | Internal management system for tourism trip packages | Next.js, Express, MongoDB, next-intl, Cloudinary |
 | **BookHouse** | Literary platform built with the IEEE web team as hands-on training | Team project |
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## `05 // BUILD_IT_BREAK_IT`
+## `~/security`
 
 <div align="center">
 <img src="./assets/network.svg" width="100%" alt="Animated ASCII request flow: legitimate packets pass through the WAF to the API and database, an attacker packet is blocked with a 403" />
@@ -203,13 +216,13 @@ Security is not a separate phase for me. It shapes how I design authentication, 
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## `06 // BEYOND_CODE`
+## `~/community`
 
 ### IEEE Aswan Student Branch
 
 **Web Team Head | Season 2025–2026**
 
-Engineering is also about people, collaboration and sharing knowledge. This season I led a 13-person web team across UI/UX, frontend and backend, and our work reached **500+ registrations** across the branch's events.
+This season I led a 13-person web team across UI/UX, frontend and backend, and our work reached **500+ registrations** across the branch's events.
 
 - Planned and built a **full new branch website** (dashboard, events, archive) and migrated it from the old site, after auditing the old one for security and performance.
 - Built and hosted **Codestorm 3.0** (64 contestants): a 1v1 competitive-programming contest running entirely on the branch site, judged through the Codeforces API.
@@ -227,36 +240,36 @@ I also write illustrated, print-ready study guides for university and secondary-
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## `07 // CURRENT_FOCUS`
+## `~/focus`
 
 <div align="center">
 <img src="./assets/focus.svg" width="100%" alt="Animated ASCII progress bars for current objectives" />
 </div>
 
-I'm especially interested in bridging the gap between building applications and testing their security. The goal is to be an engineer who understands both sides: how to build reliable systems and how to think like someone trying to break them.
+I like the point where building and testing meet. The goal is to understand both sides: how to build reliable systems and how someone would break them.
 
-**Side quest:** exploring a performance-focused open-source browser in Rust, built on the Servo engine. A feasibility study is done and the plan is ambitious on purpose.
+**Side quest:** Rust. [ODM](https://github.com/zAyman01/odm), an open-source download manager, has a v0.1.0 release. A feasibility study for a performance-focused browser on the Servo engine is done, and the plan is ambitious on purpose.
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## `08 // GITHUB_ACTIVITY`
+## `~/activity`
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=zAyman01&show_icons=true&hide_border=true&bg_color=0d1117&title_color=4ade80&icon_color=4ade80&text_color=c9d1d9&ring_color=4ade80" />
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zAyman01&layout=compact&hide_border=true&bg_color=0d1117&title_color=4ade80&text_color=c9d1d9" />
+<img width="49%" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=zAyman01&show_icons=true&hide_border=true&bg_color=0d1117&title_color=4ade80&icon_color=4ade80&text_color=c9d1d9&ring_color=4ade80" />
+<img width="49%" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zAyman01&layout=compact&hide_border=true&bg_color=0d1117&title_color=4ade80&text_color=c9d1d9" />
 
-<img width="100%" src="https://streak-stats.demolab.com?user=zAyman01&hide_border=true&background=0d1117&ring=4ade80&fire=4ade80&currStreakLabel=4ade80&sideLabels=c9d1d9&dates=888888" />
+<img width="100%" alt="Contribution streak" src="https://streak-stats.demolab.com?user=zAyman01&hide_border=true&background=0d1117&ring=4ade80&fire=4ade80&currStreakLabel=4ade80&sideLabels=c9d1d9&dates=888888" />
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=zAyman01&bg_color=0d1117&color=4ade80&line=22c55e&point=ffffff&area=true&hide_border=true" />
+<img width="100%" alt="Contribution activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=zAyman01&bg_color=0d1117&color=4ade80&line=22c55e&point=ffffff&area=true&hide_border=true" />
 
 </div>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## `09 // CONNECT`
+## `~/connect`
 
-I'm always interested in connecting with developers, security enthusiasts and people building interesting things.
+Happy to talk with developers, security people and anyone building something.
 
 <div align="center">
 
